@@ -1,10 +1,10 @@
 {
-  "name": "@xiroex/elite-entries",
+  "name": "elite-entries-api",
   "version": "0.0.1",
   "description": "Official Elite Entries API client",
   "author": "George Abreu Jr. <george8794@gmail.com> (https://georgeanthony.net/)",
   "license": "GPL-3.0-only",
-  "homepage": "https://github.com/xiroex/elite-entries#readme",
+  "homepage": "https://github.com/elitentries/api#readme",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "tsc -d"
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiroex/elite-entries.git"
+    "url": "git+https://github.com/elitentries/api.git"
   },
   "bugs": {
-    "url": "https://github.com/xiroex/elite-entries/issues"
+    "url": "https://github.com/elitentries/api/issues"
   },
   "dependencies": {
     "axios": "^1.6.8",

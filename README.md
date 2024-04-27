@@ -10,7 +10,7 @@ This package provides a typescript client library for interacting with the Elite
 The recommended way to install the library is through npm:
 
 ```bash
-npm install @xiroex/elite-entries
+npm install elite-entries-api
 ```
 
 ### Usage
@@ -25,7 +25,7 @@ Before using these functions, you'll need to acquire your API credentials from t
 **Here's an example of how to place an order:**
 
 ```typescript
-import { placeOrder } from '@xiroex/elite-entries';
+import { placeOrder } from 'elite-entries-api';
 
 const orderData: OrderReqData = {
   account: 'your_account_id',
@@ -63,7 +63,7 @@ placeOrder(orderData)
 **Here's an example of how to cancel an order:**
 
 ```typescript
-import { cancelOrder } from '@xiroex/elite-entries';
+import { cancelOrder } from 'elite-entries-api';
 
 const cancelData: DeleteReqData = {
   account: 'your_account_id',
